@@ -167,7 +167,7 @@ body {
    padding-left: 35px;
 }
 .catalog1 {
-   background-image: url(../../assets/images/catalog.jpg);
+   background-image: url(../../assets/images/catalog3.jpg);
    align-items: center;
    background-size: cover;
    justify-content: left;
@@ -176,7 +176,7 @@ body {
    padding-bottom: 0px;
 }
 .body1 {
-   background-image: url("../../assets/images/1.jpg");
+   background-image: url("../../assets/images/dobro3.jpg");
    background-size: cover;
    background-position: center;
 
@@ -188,7 +188,7 @@ body {
 }
 
 .onas {
-   background-image: url(../../assets/images/onas.jpg);
+   background-image: url(../../assets/images/onas3.jpg);
    background-size: cover;
    height: 100vh;
    align-items: left;
@@ -221,7 +221,7 @@ body {
 
 .onas-icons {
    transform: translate(-100px, 30px);
-  background-size: 50% auto;
+
 }
 
 .GALEREA {
@@ -251,6 +251,7 @@ body {
 }
 
 .Kontakty2 {
+   margin: 0;
    color: #ffffff;
    font-size: 70px;
    margin-top: 30px;
@@ -267,3 +268,53 @@ body {
     }
 }
 
+
+.hhh {
+   width: 350px;
+   height: 350px;
+   border-radius: 20px;
+   object-fit:
+cover;
+   border-bottom-right-radius: 100px;
+  transform: translate(600px, -160px); 
+}
+
+.hh1 {
+   width: 350px;
+   height: 350px;
+   border-radius: 10px;
+
+   object-fit: cover;
+   transform: translate(240px, -515px)
+}
+
+.hh2 {
+   width: 350px;
+   height: 700px;
+   object-fit: cover;
+   border-radius: 10px;
+   border-top-left-radius: 100px;
+   transform: translate(-500px, -165px);
+}
+
+.karta {
+   width: 550px;
+   height: 550px;
+   object-fit: cover;
+   border-radius: 20px;
+   transform: translate(1000px, -400px); 
+}
+
+.Kontakty-text {
+   background-color: rgba(255, 255, 255, 0.5); ;
+    height: 50vh;
+    padding: 30px;
+    width: 65vh;
+    border-radius: 20px;
+   font-size: 25px;
+   color: #ffffff;
+   display: flex;
+   flex-direction: column;
+   gap: 6px;
+   margin: 0;
+}
